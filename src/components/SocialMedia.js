@@ -1,13 +1,14 @@
-/* function SocialMedia({ socialLinks }) {
-  const { github, linkedin } = socialLinks;
-
+function SocialMedia({ links }) {
   return (
     <div>
-      <a href={github}>{github}</a>
-      <a href={linkedin}>{linkedin}</a>
+      <p>
+        <a href={links.github}>Socials Github: {links.github}</a>
+      </p>
+      <p>
+        <a href={links.linkedin}>socialslinkedin: {links.linkedin}</a>
+      </p>
     </div>
   );
 }
 
 export default SocialMedia;
- */
